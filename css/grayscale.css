@@ -312,3 +312,55 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+.responsive-circle {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.responsive-circle div {
+    color: white;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.port::after {
+    background: url("../img/port.jpg") repeat scroll 0 0 / cover ;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li .list {
+    display: block;
+}
+
+li .list {
+  margin-top: -40px;
+}
+
+.list::before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 16px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -25px;
+    margin-right: 10px;
+    color: #CCCCCC;
+}
