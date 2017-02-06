@@ -364,3 +364,7 @@ li .list {
     margin-right: 10px;
     color: #CCCCCC;
 }
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
